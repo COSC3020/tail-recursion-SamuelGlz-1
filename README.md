@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/bHkMPWBv)
 # Tail Recursion
 
 In the lectures, we've seen code for a recursive implementation for computing
@@ -18,3 +19,5 @@ Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not, and what is the complexity
 (worst-case $\Theta$)? Add your answer, including your reasoning, to this
 markdown file.
+
+The asymptotic complexity of the new tail recursive version is different form the non-tail recursive version, since the non-tail recursive forms a branch of recursive calls. The complexity fot he tail recursive version is $\Theta$ (n) because it will call the tail recursive function n times, while having the value stored as a parameter.
